@@ -1,0 +1,8 @@
+before_script:
+  - npm install
+  
+script:
+  - ng test --single-run --code-coverage
+  - ng lint
+  - ng build --prod
+ 
